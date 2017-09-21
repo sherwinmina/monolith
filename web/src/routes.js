@@ -8,7 +8,7 @@ import {
   HackbotNewTeam,
   HomePage,
   LeaderIntake,
-  NotFound,
+  NotFoundPage,
   OneOffFormWrapper,
   RedeemTechDomain,
   SlackInvite,
@@ -41,7 +41,7 @@ export default (store) => {
         <Route path="redeem_tech_domain" component={RedeemTechDomain} />
       </Route>
 
-      <Route path="*" component={NotFound} status={404} />
+      <Route path="*" component={NotFoundPage} status={404} />
     </Route>
   )
 }
